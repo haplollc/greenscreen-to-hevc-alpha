@@ -1,10 +1,14 @@
 # greenscreen-to-hevc-alpha
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/jcbuilds)
-
 Strip a green-screen background from a video and export as **HEVC with alpha** (.mov, hvc1) — Apple's native transparent-video format. Plays in `AVPlayer` with one line of SwiftUI.
 
 Originally written to ship a looping mascot animation in [Barrier](https://apps.apple.com/app/barrier) — the AI-generated source had a green background, this script removes it and packs the result down to a couple MB so it can ride in the app bundle.
+
+<p align="center">
+  <a href="https://buymeacoffee.com/jcbuilds"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" width="200"></a>
+  <br>
+  <sub>If this script is useful to you, a coffee keeps it going.</sub>
+</p>
 
 ## Pipeline
 
